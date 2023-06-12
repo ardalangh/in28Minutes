@@ -11,6 +11,9 @@ public class App02HelloWorldSpring {
 
         // retrieve the bean
         System.out.println(context.getBean("name"));
+        System.out.println(context.getBean("age"));
+        System.out.println(context.getBean("person"));
+        System.out.println(context.getBean("address"));
 
 
         // configure the things that we want Spring to manage for us
