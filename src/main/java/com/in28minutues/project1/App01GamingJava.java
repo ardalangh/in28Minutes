@@ -3,7 +3,7 @@ package com.in28minutues.project1;
 import com.in28minutues.project1.game.GameRunner;
 import com.in28minutues.project1.game.SuperMarioGame;
 
-public class AppGamingJava {
+public class App01GamingJava {
 
 
     public static void main(String[] args) {
