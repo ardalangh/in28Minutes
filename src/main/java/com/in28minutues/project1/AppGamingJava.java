@@ -1,14 +1,15 @@
 package com.in28minutues.project1;
 
 import com.in28minutues.project1.game.GameRunner;
-import com.in28minutues.project1.game.MarioGame;
+import com.in28minutues.project1.game.SuperMarioGame;
 
 public class AppGamingJava {
 
 
     public static void main(String[] args) {
-        var marioGame = new MarioGame();
-        var gameRunner = new GameRunner(marioGame);
+//        var marioGame = new MarioGame();
+        var superMarioGame = new SuperMarioGame();
+        var gameRunner = new GameRunner(superMarioGame);
 
         gameRunner.run();
     }
