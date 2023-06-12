@@ -32,7 +32,13 @@ public class HelloWorldConfiguration {
         return new Person("Mocha", 1);
     }
 
+
     @Bean
+    public Person person2() {
+        return new Person("Mocha", 1);
+    }
+
+    @Bean(name="address2")
     public Address address() {
         return new Address("Holms", "London");
     }
